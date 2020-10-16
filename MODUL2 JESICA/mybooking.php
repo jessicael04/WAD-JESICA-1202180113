@@ -9,7 +9,7 @@ function checkout(){
 
 function totalPrice(){
   $durasi = $_GET['duration'];
-  $room = $_GET["room_type"];
+  $room = $_GET["rom_type"];
   $service= array();
   if(!empty($_GET['service'])){
     foreach($_GET['service'] as $selected){

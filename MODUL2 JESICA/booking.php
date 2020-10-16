@@ -29,7 +29,7 @@
   <div class="grid-container" style="padding-top: 50px; ">
   <div class="row">
         <div class="col">
-  <form method="get" action="mybooking.php">
+  <from method="get" action="mybooking.php">
         <div class="col-md-20 col-sm-30 pr-0">
            <div style="margin-top: 100;">
     <div class="form-group col-md-9">
@@ -66,7 +66,7 @@
         <input type="text"  name="phone" class="form-control">
         </div>
         <div class="form-group col-md-9">
-        <button style= "margin-top: 5px; margin-left:3px;width:433px;height:40px;" href = "mybooking.php" class = "btn btn-primary">Book</button>
+        <button style= "margin-top: 5px; margin-left:3px;width:433px;height:40px;" href = "mybooking.pp" class = "btn btn-primary">Book</button>
         </div>
         </div>
         </div>

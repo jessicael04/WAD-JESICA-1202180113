@@ -1,5 +1,5 @@
 <?php
-session_destroy();
+session_start();
 error_reporting(0);
 if (!isset($_SESSION["login"])){
 	header("Location: login.php");

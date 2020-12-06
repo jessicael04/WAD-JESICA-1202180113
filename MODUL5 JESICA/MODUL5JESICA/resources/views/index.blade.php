@@ -10,8 +10,7 @@
 
     <title>Home</title>
 
-    <style>
-    </style>
+  
 
   </head>
   <body>
@@ -29,10 +28,6 @@
     </div>
   </div>
 </nav>
-@extends('layouts.master')
-@section('title','Product')
-@section('content')
-<!-- code here -->
 <div class="container">
     @if($products->count())
 
@@ -75,7 +70,6 @@
     </div>
     @endif
 </div>
-@endsection
 <div>
   <img src="assets/img/kamar.jpg" alt="" class="center">
 </div>
